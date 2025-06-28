@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #dbeafe 0%, #1e3a8a 100%);
+  color: #002e5c;
+  min-height: 100vh;
+  padding: 1.5rem 0.5rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow-y: auto;
+}
+
+.main-box {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 46, 92, 0.15);
+  max-width: 900px;
+  max-height: 1200px;
+  width: 100%;
+  padding: 1rem 2rem;
+  margin: 5px 0;
+  animation: fadeInScale 0.5s ease forwards;
+}
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Nadpis */
+h1#nadpis {
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.8rem;
+  margin-bottom: 1.8rem;
+  color: #004080;
+  text-shadow: 1px 1px 3px rgba(0, 64, 128, 0.15);
+  letter-spacing: 0.02em;
+}
+
+/* Produkt box */
+.product-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 46, 92, 0.1);
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 2rem;
+  background: #fff;
+}
+.product-image {
+  flex: 1 1 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-image img {
+  max-width: 100%;
+  max-height: 220px;
+  border-radius: 14px;
+  box-shadow: 0 6px 14px rgba(0, 46, 92, 0.15);
+  object-fit: contain;
+}
+.product-info {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #004080;
+}
+.product-info h5 {
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 0.6rem;
+}
+.product-info p {
+  font-size: 0.95rem;
+  color: #506680;
+  line-height: 1.4;
+}
+
+/* Graf container */
+.graf {
+  max-width: 100%;
+  margin-bottom: 1.8rem;
+  box-shadow: 0 8px 24px rgba(0, 46, 92, 0.1);
+  border-radius: 16px;
+  background: #fff;
+  padding: 0.8rem 1rem;
+}
+
+/* Cena */
+h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #003366;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 2px rgba(0, 51, 102, 0.1);
+}
+
+/* Odkaz na produkt */
+#odkaz_produkt {
+  display: block;
+  margin: 0 auto;
+  background: #007bff;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+  text-align: center;
+  max-width: 200px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  user-select: none;
+}
+#odkaz_produkt:hover,
+#odkaz_produkt:focus {
+  background-color: #0056b3;
+  box-shadow: 0 7px 20px rgba(0, 86, 179, 0.7);
+  text-decoration: none;
+  color: white;
+  outline: none;
+}
+
+/* Domů button */
+.btn-home {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1100;
+  background-color: #007bff;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  color: white;
+  font-weight: 600;
+  font-size: 0.85rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.6);
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.btn-home:hover,
+.btn-home:focus {
+  background-color: #0056b3;
+  box-shadow: 0 6px 18px rgba(0, 86, 179, 0.8);
+  outline: none;
+  text-decoration: none;
+  color: white;
+}
+.btn-home svg {
+  width: 16px;
+  height: 16px;
+  fill: white;
+}
+
+/* Scraped data card */
+.scraped-info {
+  max-width: 800px;
+  margin: 2rem auto 0 auto;
+  background: #e9f1ff;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 46, 92, 0.08);
+  padding: 1.2rem 1.8rem;
+  color: #004080;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.scraped-info h4 {
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .container {
+    padding: 1.5rem 1rem;
+    margin-top: 2rem;
+  }
+  .product-card {
+    flex-direction: column;
+  }
+  .product-info {
+    text-align: center;
+  }
+  h1#nadpis {
+    font-size: 1.5rem;
+  }
+}

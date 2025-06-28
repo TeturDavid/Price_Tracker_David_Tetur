@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Výsledky hledání</title>
+  <link href="static/vysledek_style.css" rel="stylesheet" type="text/css" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+  <nav class="navbar-custom">
+    <a href="/" class="btn btn-primary btn-back" aria-label="Zpět">← Zpět</a>
+    <div class="navbar-title">
+      VÝSLEDKY PRO: <strong>{{ produkt }}</strong>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+  {% if results %}
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      {% for product in results %}
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title text-truncate karta_nazev" title="{{ product.name }}">
+                {{ product.name }}
+              </h5>
+              <div class="product_image">
+                <img src="{{ product.image_url }}" alt="{{ product.name }}" loading="lazy" />
+              </div>
+
+              <div class="product-description">
+                {{ product.description }}
+              </div>
+            </div>
+
+            <div class="card-footer">
+              <p class="card-text">
+                Cena: <span class="text-success">{{ product.original_price }} Kč</span>
+              </p>
+              <div class="btn-group">
+                <a href="{{ product.link }}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Zobrazit</a>
+                <a href="{{ url_for('pridat_wishlist', name=product.name, link=product.link, price=product.original_price, image_url=product.image_url, description=product.description)}}" class="btn btn-outline-primary">Sledovat</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="mt-4 text-center fs-5 text-muted">Žádné výsledky.</p>
+  {% endif %}
+  </div>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"
+  ></script>
+
+</body>
+</html>

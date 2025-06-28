@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vyhledávač produktů</title>
+  <link href="/static/vyhledavac_style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="{{ url_for('static', filename='favicon.webp') }}" type="image/webp" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <div id="logout-container">
+    <form method="GET" action="/logout">
+      <button type="submit" class="btn btn-danger btn-sm">Odhlásit se</button>
+    </form>
+  </div>
+
+  <!-- Přihlášen jako -->
+  <div id="user-info">
+  <span class="user-icon">👤</span>
+  <strong>{{ user_email }}</strong>
+  </div>
+
+  <div class="main-container container mt-4">
+    
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <div class="flash-container mb-4">
+          {% for category, message in messages %}
+            <div class="alert alert-{{ category }} alert-dismissible fade show text-center" role="alert">
+              {{ message }}
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Zavřít"></button>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endwith %}
+      
+    <h1 class="text-center" id="nadpis">Vyhledávač produktů</h1>
+
+    <!-- Vyhledávací formulář -->
+    <form id="searchForm" method="POST" action="/search_alza" class="mx-auto" style="max-width: 600px;">
+      <div class="mb-3">
+        <label for="produkt" class="form-label">Zadej produkt</label>
+        <input type="text" class="form-control" id="produkt" name="produkt" placeholder="Např. MacBook Air" required />
+      </div>
+      <div class="mb-3">
+        <label for="max_results" class="form-label">Počet výsledků</label>
+        <input
+          type="number"
+          class="form-control"
+          id="max_results"
+          name="max_results"
+          min="9"
+          max="30"
+          value="9"
+        />
+      </div>
+      <button type="submit" class="btn btn-primary mb-3 w-100">Hledat na Alza</button>
+    </form> 
+
+    <form method="GET" action="/" class="d-flex justify-content-center mb-3" style="max-width: 800px; margin: 0 auto;">
+      <input type="text" name="wishlist_search" class="form-control me-2" placeholder="Hledat ve wishlistu" value="{{ request.args.get('wishlist_search', '') }}">
+      <button type="submit" class="btn btn-outline-secondary">🔍</button>
+    </form>
+
+    <!-- Wishlist -->
+    <ul class="list-group mx-auto mt-4" style="max-width: 800px;">
+      {% for product in wishlist %}
+        <li
+          class="list-group-item d-flex justify-content-between align-items-start"
+          title="{{ product.name }}"
+          data-bs-toggle="tooltip"
+        >
+          <div class="me-auto">
+            <div class="fw-bold">{{ product.name }}</div>
+            Cena: <strong> {{ "{:,}".format(product.current_price | int).replace(',', ' ') }} </strong> Kč 
+
+            {% if product.rozdil_ceny >= 1 %}
+              <span class="badge bg-success ms-2">Sleva {{ product.rozdil_ceny | round(1) }} %</span>
+            {% elif product.rozdil_ceny <= -1 %}
+              <span class="badge bg-danger ms-2">Zdraženo o {{ product.rozdil_ceny | abs | round(1) }} %</span>
+            {% endif %}
+          </div>
+          <div class="btn-group">
+            <a href="/produkt/{{ product.id }}" class="btn btn-sm btn-outline-primary">Zobrazit</a>
+            <a href="/odstranitzwishlistu?id={{ product.id }}" class="btn btn-sm btn-outline-danger">Odstranit</a>
+          </div>
+        </li>
+      {% else %}
+        <li class="list-group-item text-center fst-italic">Wishlist je prázdný.</li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Automatické skrytí flash zpráv po 4 sekundách
+    setTimeout(() => {
+      const alerts = document.querySelectorAll('.alert');
+      alerts.forEach(alert => {
+        const bsAlert = bootstrap.Alert.getOrCreateInstance(alert);
+        bsAlert.close();
+      });
+    }, 4000);
+  </script>
+</body>
+</html>

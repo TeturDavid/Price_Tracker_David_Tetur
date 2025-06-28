@@ -1,0 +1,530 @@
+Updater byl spuštěn v: 2025-06-12 16:55:51
+Updater byl spuštěn v: 2025-06-12 19:14:10
+Updater byl spuštěn v: 2025-06-12 19:14:34
+Updater byl spuštěn v: 2025-06-12 19:20:28
+spouštím updater v:  2025-06-12 19:38:44
+spouštím updater v:  2025-06-12 19:39:22
+Update proběhl v pořádku ✅ 2025-06-12 19:39:31
+Update proběhl v pořádku ✅ 2025-06-12 19:40:10
+spouštím updater v:  2025-06-12 19:40:31
+spouštím updater v:  2025-06-12 19:41:10
+spouštím updater v:  2025-06-12 19:45:07
+Update selhal ❌ 2025-06-12 19:46:08
+spouštím updater v:  2025-06-12 19:47:08
+Update selhal ❌ 2025-06-12 19:48:05
+spouštím updater v:  2025-06-12 19:49:05
+Update selhal ❌ 2025-06-12 19:50:02
+spouštím updater v:  2025-06-12 19:51:02
+Update selhal ❌ 2025-06-12 19:52:00
+spouštím updater v:  2025-06-12 19:53:25
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-12 19:54:22
+spouštím updater v:  2025-06-12 19:55:22
+spouštím updater v:  2025-06-12 20:55:41
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-12 20:56:39
+spouštím updater v:  2025-06-12 21:56:39
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-12 21:57:38
+spouštím updater v:  2025-06-14 10:47:33
+Update proběhl v pořádku ✅ 2025-06-14 10:48:21
+spouštím updater v:  2025-06-14 11:19:46
+Update proběhl v pořádku ✅ 2025-06-14 11:20:33
+spouštím updater v:  2025-06-14 11:25:33
+Update proběhl v pořádku ✅ 2025-06-14 11:26:20
+spouštím updater v:  2025-06-14 11:31:20
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-14 11:31:24
+spouštím updater v:  2025-06-14 11:36:24
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-14 11:36:29
+spouštím updater v:  2025-06-14 11:41:29
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-14 11:41:33
+spouštím updater v:  2025-06-14 11:46:33
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-14 11:46:37
+spouštím updater v:  2025-06-14 11:51:37
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-14 11:51:41
+spouštím updater v:  2025-06-14 11:56:41
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-14 11:56:45
+spouštím updater v:  2025-06-14 12:01:45
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-14 12:01:49
+spouštím updater v:  2025-06-14 12:06:49
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-14 12:06:53
+spouštím updater v:  2025-06-14 12:11:53
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-14 12:11:57
+spouštím updater v:  2025-06-14 12:16:57
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-14 12:17:01
+spouštím updater v:  2025-06-14 12:22:01
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-14 12:22:05
+spouštím updater v:  2025-06-14 12:27:05
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-14 12:27:09
+spouštím updater v:  2025-06-14 12:32:09
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-14 12:32:13
+spouštím updater v:  2025-06-14 12:37:13
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-14 12:37:17
+spouštím updater v:  2025-06-14 12:42:17
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-14 12:42:21
+spouštím updater v:  2025-06-14 12:47:21
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-14 12:47:25
+spouštím updater v:  2025-06-14 12:52:25
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-14 12:52:30
+spouštím updater v:  2025-06-14 12:57:30
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-14 12:57:34
+spouštím updater v:  2025-06-14 13:02:34
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-14 13:02:38
+spouštím updater v:  2025-06-14 13:07:38
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-14 13:07:42
+spouštím updater v:  2025-06-14 13:12:42
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-14 13:12:46
+spouštím updater v:  2025-06-14 13:17:46
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-14 13:17:50
+spouštím updater v:  2025-06-14 13:22:50
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-14 13:22:54
+spouštím updater v:  2025-06-14 13:27:54
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-14 13:27:58
+spouštím updater v:  2025-06-14 13:32:58
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-14 13:33:02
+spouštím updater v:  2025-06-14 13:38:02
+Update proběhl v pořádku ✅ 2025-06-14 13:38:49
+spouštím updater v:  2025-06-14 13:43:49
+Update proběhl v pořádku ✅ 2025-06-14 13:44:34
+spouštím updater v:  2025-06-14 13:49:34
+Update proběhl v pořádku ✅ 2025-06-14 13:50:23
+spouštím updater v:  2025-06-14 13:55:23
+Update proběhl v pořádku ✅ 2025-06-14 13:56:09
+spouštím updater v:  2025-06-14 14:01:09
+Update proběhl v pořádku ✅ 2025-06-14 14:01:56
+spouštím updater v:  2025-06-14 14:06:56
+Update proběhl v pořádku ✅ 2025-06-14 14:07:40
+spouštím updater v:  2025-06-14 14:12:40
+Update proběhl v pořádku ✅ 2025-06-14 14:13:34
+spouštím updater v:  2025-06-14 14:18:34
+Update proběhl v pořádku ✅ 2025-06-14 14:19:19
+spouštím updater v:  2025-06-14 14:24:19
+Update proběhl v pořádku ✅ 2025-06-14 14:25:07
+spouštím updater v:  2025-06-14 14:30:07
+Update proběhl v pořádku ✅ 2025-06-14 14:30:54
+spouštím updater v:  2025-06-14 14:35:54
+Update proběhl v pořádku ✅ 2025-06-14 14:36:41
+spouštím updater v:  2025-06-14 14:41:41
+Update proběhl v pořádku ✅ 2025-06-14 14:42:30
+spouštím updater v:  2025-06-14 14:47:30
+Update proběhl v pořádku ✅ 2025-06-14 14:48:16
+spouštím updater v:  2025-06-14 14:53:16
+Update proběhl v pořádku ✅ 2025-06-14 14:54:03
+spouštím updater v:  2025-06-14 14:59:03
+Update proběhl v pořádku ✅ 2025-06-14 14:59:49
+spouštím updater v:  2025-06-14 15:04:49
+Update proběhl v pořádku ✅ 2025-06-14 15:05:37
+spouštím updater v:  2025-06-14 15:10:37
+Update proběhl v pořádku ✅ 2025-06-14 15:11:24
+spouštím updater v:  2025-06-14 15:16:24
+Update proběhl v pořádku ✅ 2025-06-14 15:17:09
+spouštím updater v:  2025-06-14 15:22:09
+Update proběhl v pořádku ✅ 2025-06-14 15:22:57
+spouštím updater v:  2025-06-14 15:27:57
+Update proběhl v pořádku ✅ 2025-06-14 15:28:46
+spouštím updater v:  2025-06-14 15:33:46
+Update proběhl v pořádku ✅ 2025-06-14 15:34:33
+spouštím updater v:  2025-06-14 15:39:33
+Update proběhl v pořádku ✅ 2025-06-14 15:40:19
+spouštím updater v:  2025-06-14 15:45:19
+Update proběhl v pořádku ✅ 2025-06-14 15:46:05
+spouštím updater v:  2025-06-14 15:51:05
+Update proběhl v pořádku ✅ 2025-06-14 15:51:51
+spouštím updater v:  2025-06-14 15:56:51
+Update proběhl v pořádku ✅ 2025-06-14 15:57:37
+spouštím updater v:  2025-06-14 16:02:37
+Update proběhl v pořádku ✅ 2025-06-14 16:03:23
+spouštím updater v:  2025-06-14 16:08:23
+Update proběhl v pořádku ✅ 2025-06-14 16:09:09
+spouštím updater v:  2025-06-14 16:14:09
+Update proběhl v pořádku ✅ 2025-06-14 16:14:55
+spouštím updater v:  2025-06-14 16:19:55
+Update proběhl v pořádku ✅ 2025-06-14 16:20:41
+spouštím updater v:  2025-06-16 10:48:12
+Update proběhl v pořádku ✅ 2025-06-16 10:49:01
+spouštím updater v:  2025-06-16 10:54:01
+Update proběhl v pořádku ✅ 2025-06-16 10:54:46
+spouštím updater v:  2025-06-16 10:59:46
+Update proběhl v pořádku ✅ 2025-06-16 11:00:39
+spouštím updater v:  2025-06-16 11:05:39
+Update proběhl v pořádku ✅ 2025-06-16 11:06:25
+spouštím updater v:  2025-06-16 11:11:25
+Update proběhl v pořádku ✅ 2025-06-16 11:12:11
+spouštím updater v:  2025-06-16 14:46:00
+Update proběhl v pořádku ✅ 2025-06-16 14:46:47
+spouštím updater v:  2025-06-16 14:51:47
+Update proběhl v pořádku ✅ 2025-06-16 14:52:33
+spouštím updater v:  2025-06-16 14:57:33
+Update proběhl v pořádku ✅ 2025-06-16 14:58:21
+spouštím updater v:  2025-06-16 15:03:21
+Update proběhl v pořádku ✅ 2025-06-16 15:04:08
+spouštím updater v:  2025-06-16 15:09:08
+Update proběhl v pořádku ✅ 2025-06-16 15:09:54
+spouštím updater v:  2025-06-16 15:14:54
+Update proběhl v pořádku ✅ 2025-06-16 15:15:43
+spouštím updater v:  2025-06-16 15:20:43
+Update proběhl v pořádku ✅ 2025-06-16 15:21:32
+spouštím updater v:  2025-06-16 15:26:32
+Update proběhl v pořádku ✅ 2025-06-16 15:27:19
+spouštím updater v:  2025-06-16 15:32:19
+Update proběhl v pořádku ✅ 2025-06-16 15:33:04
+spouštím updater v:  2025-06-16 15:38:04
+Update proběhl v pořádku ✅ 2025-06-16 15:38:56
+spouštím updater v:  2025-06-16 15:43:56
+Update proběhl v pořádku ✅ 2025-06-16 15:44:41
+spouštím updater v:  2025-06-16 15:49:41
+Update proběhl v pořádku ✅ 2025-06-16 15:50:36
+spouštím updater v:  2025-06-16 15:55:36
+Update proběhl v pořádku ✅ 2025-06-16 15:56:30
+spouštím updater v:  2025-06-16 16:01:30
+Update proběhl v pořádku ✅ 2025-06-16 16:02:22
+spouštím updater v:  2025-06-16 16:07:22
+Update proběhl v pořádku ✅ 2025-06-16 16:08:20
+spouštím updater v:  2025-06-16 16:13:20
+Update proběhl v pořádku ✅ 2025-06-16 16:14:13
+spouštím updater v:  2025-06-16 16:19:13
+Update proběhl v pořádku ✅ 2025-06-16 16:20:05
+spouštím updater v:  2025-06-16 16:25:05
+Update proběhl v pořádku ✅ 2025-06-16 16:25:59
+spouštím updater v:  2025-06-16 16:30:59
+Update proběhl v pořádku ✅ 2025-06-16 16:31:53
+spouštím updater v:  2025-06-16 16:34:50
+Update proběhl v pořádku ✅ 2025-06-16 16:35:40
+spouštím updater v:  2025-06-16 16:36:53
+Update proběhl v pořádku ✅ 2025-06-16 16:37:45
+spouštím updater v:  2025-06-16 16:42:45
+Update proběhl v pořádku ✅ 2025-06-16 16:43:38
+spouštím updater v:  2025-06-16 16:48:38
+Update proběhl v pořádku ✅ 2025-06-16 16:49:31
+spouštím updater v:  2025-06-16 16:54:31
+Update proběhl v pořádku ✅ 2025-06-16 16:55:27
+spouštím updater v:  2025-06-16 17:00:27
+Update proběhl v pořádku ✅ 2025-06-16 17:01:20
+spouštím updater v:  2025-06-16 17:06:20
+Update proběhl v pořádku ✅ 2025-06-16 17:07:17
+spouštím updater v:  2025-06-16 17:12:17
+Update proběhl v pořádku ✅ 2025-06-16 17:13:12
+spouštím updater v:  2025-06-16 17:18:12
+Update proběhl v pořádku ✅ 2025-06-16 17:19:05
+spouštím updater v:  2025-06-16 17:24:05
+Update proběhl v pořádku ✅ 2025-06-16 17:24:57
+spouštím updater v:  2025-06-16 18:56:11
+spouštím updater v:  2025-06-16 18:56:28
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 18:57:10
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 18:58:01
+spouštím updater v:  2025-06-16 19:03:01
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 19:03:58
+spouštím updater v:  2025-06-16 19:08:58
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 19:09:55
+spouštím updater v:  2025-06-16 19:14:55
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 19:15:52
+spouštím updater v:  2025-06-16 19:20:52
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 19:21:48
+spouštím updater v:  2025-06-16 19:26:48
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 19:27:45
+spouštím updater v:  2025-06-16 19:32:45
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 19:33:42
+spouštím updater v:  2025-06-16 19:38:42
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 19:39:39
+spouštím updater v:  2025-06-16 19:44:39
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 19:45:36
+spouštím updater v:  2025-06-16 19:50:36
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 19:51:32
+spouštím updater v:  2025-06-16 19:56:32
+spouštím updater v:  2025-06-16 19:57:10
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 19:57:30
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 19:58:21
+spouštím updater v:  2025-06-16 20:02:30
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 20:03:27
+spouštím updater v:  2025-06-16 20:08:27
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 20:09:24
+spouštím updater v:  2025-06-16 20:14:24
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 20:15:21
+spouštím updater v:  2025-06-16 20:20:21
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 20:21:18
+spouštím updater v:  2025-06-16 20:26:18
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 20:27:16
+spouštím updater v:  2025-06-16 20:32:16
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 20:33:13
+spouštím updater v:  2025-06-16 20:38:13
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 20:39:10
+spouštím updater v:  2025-06-16 20:44:10
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 20:45:07
+spouštím updater v:  2025-06-16 20:50:07
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 20:51:03
+spouštím updater v:  2025-06-16 20:56:03
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 20:57:00
+spouštím updater v:  2025-06-16 20:58:21
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 20:59:18
+spouštím updater v:  2025-06-16 21:02:00
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 21:02:57
+spouštím updater v:  2025-06-16 21:07:57
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 21:08:53
+spouštím updater v:  2025-06-16 21:13:53
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 21:14:53
+spouštím updater v:  2025-06-16 21:19:53
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 21:20:50
+spouštím updater v:  2025-06-16 21:25:50
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 21:26:48
+spouštím updater v:  2025-06-16 21:31:48
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 21:32:46
+spouštím updater v:  2025-06-16 21:37:46
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 21:38:43
+spouštím updater v:  2025-06-16 21:43:43
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 21:44:41
+spouštím updater v:  2025-06-16 21:49:41
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 21:50:38
+spouštím updater v:  2025-06-16 21:55:38
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 21:56:35
+spouštím updater v:  2025-06-16 21:59:18
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 22:00:15
+spouštím updater v:  2025-06-16 22:01:35
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 22:02:32
+spouštím updater v:  2025-06-16 22:07:32
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 22:08:29
+spouštím updater v:  2025-06-16 22:13:29
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 22:14:26
+spouštím updater v:  2025-06-16 22:19:26
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 22:20:23
+spouštím updater v:  2025-06-16 22:25:23
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 22:26:19
+spouštím updater v:  2025-06-16 22:31:19
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 22:32:16
+spouštím updater v:  2025-06-16 22:37:16
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 22:38:13
+spouštím updater v:  2025-06-16 22:43:13
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 22:44:10
+spouštím updater v:  2025-06-16 22:49:10
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-16 22:50:07
+spouštím updater v:  2025-06-17 11:35:11
+Update proběhl v pořádku ✅ 2025-06-17 11:35:40
+spouštím updater v:  2025-06-17 12:44:40
+Update proběhl v pořádku ✅ 2025-06-17 12:45:10
+spouštím updater v:  2025-06-17 13:45:10
+Update proběhl v pořádku ✅ 2025-06-17 13:45:46
+spouštím updater v:  2025-06-17 14:45:46
+Update proběhl v pořádku ✅ 2025-06-17 14:46:23
+spouštím updater v:  2025-06-17 15:46:23
+Update proběhl v pořádku ✅ 2025-06-17 15:47:15
+spouštím updater v:  2025-06-17 16:47:37
+Update proběhl v pořádku ✅ 2025-06-17 16:48:27
+spouštím updater v:  2025-06-17 17:49:05
+Update proběhl v pořádku ✅ 2025-06-17 17:50:07
+spouštím updater v:  2025-06-17 19:11:14
+Update proběhl v pořádku ✅ 2025-06-17 19:12:12
+spouštím updater v:  2025-06-17 20:12:13
+Update proběhl v pořádku ✅ 2025-06-17 20:13:12
+spouštím updater v:  2025-06-18 13:56:11
+Update proběhl v pořádku ✅ 2025-06-18 13:56:35
+spouštím updater v:  2025-06-18 14:57:02
+Update proběhl v pořádku ✅ 2025-06-18 14:57:26
+spouštím updater v:  2025-06-18 15:57:26
+Update proběhl v pořádku ✅ 2025-06-18 15:58:23
+spouštím updater v:  2025-06-18 17:07:42
+Update proběhl v pořádku ✅ 2025-06-18 17:08:39
+spouštím updater v:  2025-06-18 19:52:15
+Update proběhl v pořádku ✅ 2025-06-18 19:53:47
+spouštím updater v:  2025-06-18 20:53:47
+Update proběhl v pořádku ✅ 2025-06-18 20:54:59
+spouštím updater v:  2025-06-18 21:54:59
+Update proběhl v pořádku ✅ 2025-06-18 21:56:24
+spouštím updater v:  2025-06-18 22:56:24
+Update proběhl v pořádku ✅ 2025-06-18 22:57:28
+spouštím updater v:  2025-06-20 10:51:08
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-20 10:52:29
+spouštím updater v:  2025-06-20 12:44:14
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-20 12:45:36
+spouštím updater v:  2025-06-20 13:00:00
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-20 13:01:21
+spouštím updater v:  2025-06-20 13:06:21
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-20 13:07:42
+spouštím updater v:  2025-06-20 13:12:42
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-20 13:14:03
+spouštím updater v:  2025-06-20 13:19:03
+Update selhal ❌ - chyba: 1205 (HY000): Lock wait timeout exceeded; try restarting transaction 2025-06-20 13:20:24
+spouštím updater v:  2025-06-20 13:26:54
+Update proběhl v pořádku ✅ 2025-06-20 13:28:02
+spouštím updater v:  2025-06-20 13:29:02
+Update proběhl v pořádku ✅ 2025-06-20 13:30:06
+spouštím updater v:  2025-06-20 13:31:06
+Update proběhl v pořádku ✅ 2025-06-20 13:32:08
+spouštím updater v:  2025-06-20 13:33:08
+Update proběhl v pořádku ✅ 2025-06-20 13:34:15
+spouštím updater v:  2025-06-20 13:35:15
+Update proběhl v pořádku ✅ 2025-06-20 13:36:19
+spouštím updater v:  2025-06-20 13:37:19
+spouštím updater v:  2025-06-20 18:21:28
+Update proběhl v pořádku ✅ 2025-06-20 18:21:49
+spouštím updater v:  2025-06-20 21:29:44
+Update selhal ❌ - chyba: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=137.0.7151.104)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff61d1bfe75+79173]
+	GetHandleVerifier [0x0x7ff61d1bfed0+79264]
+	(No symbol) [0x0x7ff61cf79e5a]
+	(No symbol) [0x0x7ff61cf76874]
+	(No symbol) [0x0x7ff61cf67589]
+	(No symbol) [0x0x7ff61cf69331]
+	(No symbol) [0x0x7ff61cf678a6]
+	(No symbol) [0x0x7ff61cf67306]
+	(No symbol) [0x0x7ff61cf66fca]
+	(No symbol) [0x0x7ff61cf64b9f]
+	(No symbol) [0x0x7ff61cf6541c]
+	(No symbol) [0x0x7ff61cf7de0a]
+	(No symbol) [0x0x7ff61d021dfe]
+	(No symbol) [0x0x7ff61cff896a]
+	(No symbol) [0x0x7ff61d02100d]
+	(No symbol) [0x0x7ff61cff8743]
+	(No symbol) [0x0x7ff61cfc14c1]
+	(No symbol) [0x0x7ff61cfc2253]
+	GetHandleVerifier [0x0x7ff61d48a2ad+3004797]
+	GetHandleVerifier [0x0x7ff61d4846fd+2981325]
+	GetHandleVerifier [0x0x7ff61d4a3350+3107360]
+	GetHandleVerifier [0x0x7ff61d1da9fe+188622]
+	GetHandleVerifier [0x0x7ff61d1e228f+219487]
+	GetHandleVerifier [0x0x7ff61d1c8dc4+115860]
+	GetHandleVerifier [0x0x7ff61d1c8f79+116297]
+	GetHandleVerifier [0x0x7ff61d1af528+11256]
+	BaseThreadInitThunk [0x0x7ffe02277374+20]
+	RtlUserThreadStart [0x0x7ffe026bcc91+33]
+ 2025-06-20 21:29:47
+spouštím updater v:  2025-06-20 21:31:18
+Update selhal ❌ - chyba: unsupported operand type(s) for -: 'decimal.Decimal' and 'float' 2025-06-20 21:31:27
+spouštím updater v:  2025-06-20 22:07:27
+Update selhal ❌ - chyba: unsupported operand type(s) for -: 'decimal.Decimal' and 'float' 2025-06-20 22:07:34
+spouštím updater v:  2025-06-20 22:12:34
+Update selhal ❌ - chyba: unsupported operand type(s) for -: 'decimal.Decimal' and 'float' 2025-06-20 22:12:41
+spouštím updater v:  2025-06-20 22:17:41
+Update selhal ❌ - chyba: unsupported operand type(s) for -: 'decimal.Decimal' and 'float' 2025-06-20 22:17:48
+spouštím updater v:  2025-06-20 22:22:48
+Update selhal ❌ - chyba: unsupported operand type(s) for -: 'decimal.Decimal' and 'float' 2025-06-20 22:22:55
+spouštím updater v:  2025-06-20 22:27:55
+Update selhal ❌ - chyba: unsupported operand type(s) for -: 'decimal.Decimal' and 'float' 2025-06-20 22:28:02
+spouštím updater v:  2025-06-20 22:33:03
+Update selhal ❌ - chyba: unsupported operand type(s) for -: 'decimal.Decimal' and 'float' 2025-06-20 22:33:11
+spouštím updater v:  2025-06-20 22:38:11
+Update selhal ❌ - chyba: unsupported operand type(s) for -: 'decimal.Decimal' and 'float' 2025-06-20 22:38:18
+spouštím updater v:  2025-06-20 22:43:18
+Update selhal ❌ - chyba: unsupported operand type(s) for -: 'decimal.Decimal' and 'float' 2025-06-20 22:43:24
+spouštím updater v:  2025-06-21 11:18:26
+Update selhal ❌ - chyba: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) 2025-06-21 11:18:30
+spouštím updater v:  2025-06-21 11:23:31
+Update proběhl v pořádku ✅ 2025-06-21 11:23:52
+spouštím updater v:  2025-06-21 11:28:52
+Update proběhl v pořádku ✅ 2025-06-21 11:29:12
+spouštím updater v:  2025-06-21 11:34:12
+Update proběhl v pořádku ✅ 2025-06-21 11:34:52
+spouštím updater v:  2025-06-21 11:39:52
+Update proběhl v pořádku ✅ 2025-06-21 11:40:31
+spouštím updater v:  2025-06-21 11:45:31
+Update proběhl v pořádku ✅ 2025-06-21 11:46:10
+spouštím updater v:  2025-06-21 11:51:11
+Update proběhl v pořádku ✅ 2025-06-21 11:51:42
+spouštím updater v:  2025-06-21 11:56:42
+Update proběhl v pořádku ✅ 2025-06-21 11:57:20
+spouštím updater v:  2025-06-21 12:02:20
+Update proběhl v pořádku ✅ 2025-06-21 12:03:03
+spouštím updater v:  2025-06-21 12:08:03
+Update proběhl v pořádku ✅ 2025-06-21 12:08:43
+spouštím updater v:  2025-06-21 12:13:43
+Update proběhl v pořádku ✅ 2025-06-21 12:14:21
+spouštím updater v:  2025-06-21 12:19:21
+Update proběhl v pořádku ✅ 2025-06-21 12:20:01
+spouštím updater v:  2025-06-21 12:25:01
+Update proběhl v pořádku ✅ 2025-06-21 12:25:39
+spouštím updater v:  2025-06-21 12:30:39
+Update proběhl v pořádku ✅ 2025-06-21 12:31:18
+spouštím updater v:  2025-06-21 12:36:18
+Update proběhl v pořádku ✅ 2025-06-21 12:36:55
+spouštím updater v:  2025-06-21 12:41:55
+Update proběhl v pořádku ✅ 2025-06-21 12:42:33
+spouštím updater v:  2025-06-21 12:47:33
+Update proběhl v pořádku ✅ 2025-06-21 12:48:10
+spouštím updater v:  2025-06-21 12:53:10
+Update proběhl v pořádku ✅ 2025-06-21 12:53:47
+spouštím updater v:  2025-06-21 12:58:47
+Update proběhl v pořádku ✅ 2025-06-21 12:59:20
+spouštím updater v:  2025-06-21 13:04:20
+Update proběhl v pořádku ✅ 2025-06-21 13:04:53
+spouštím updater v:  2025-06-21 13:09:53
+Update proběhl v pořádku ✅ 2025-06-21 13:10:24
+spouštím updater v:  2025-06-21 13:15:24
+Update proběhl v pořádku ✅ 2025-06-21 13:16:07
+spouštím updater v:  2025-06-21 13:21:07
+Update proběhl v pořádku ✅ 2025-06-21 13:21:39
+spouštím updater v:  2025-06-21 13:26:39
+Update proběhl v pořádku ✅ 2025-06-21 13:27:06
+spouštím updater v:  2025-06-21 13:32:06
+Update proběhl v pořádku ✅ 2025-06-21 13:32:20
+spouštím updater v:  2025-06-21 13:37:20
+Update proběhl v pořádku ✅ 2025-06-21 13:37:34
+spouštím updater v:  2025-06-21 13:42:34
+Update proběhl v pořádku ✅ 2025-06-21 13:42:49
+spouštím updater v:  2025-06-21 14:48:31
+Update proběhl v pořádku ✅ 2025-06-21 14:50:17
+spouštím updater v:  2025-06-21 15:50:17
+Update proběhl v pořádku ✅ 2025-06-21 15:51:52
+spouštím updater v:  2025-06-21 20:08:10
+Update proběhl v pořádku ✅ 2025-06-21 20:10:01
+spouštím updater v:  2025-06-21 21:10:01
+Update proběhl v pořádku ✅ 2025-06-21 21:11:53
+spouštím updater v:  2025-06-21 22:11:53
+Update proběhl v pořádku ✅ 2025-06-21 22:13:24
+spouštím updater v:  2025-06-21 23:13:24
+Update proběhl v pořádku ✅ 2025-06-21 23:14:55
+spouštím updater v:  2025-06-28 11:28:01
+Update proběhl v pořádku ✅ 2025-06-28 11:29:31
+spouštím updater v:  2025-06-28 11:32:31
+Update proběhl v pořádku ✅ 2025-06-28 11:33:51
+spouštím updater v:  2025-06-28 11:36:51
+Update proběhl v pořádku ✅ 2025-06-28 11:38:17
+spouštím updater v:  2025-06-28 11:41:17
+Update proběhl v pořádku ✅ 2025-06-28 11:42:37
+spouštím updater v:  2025-06-28 11:45:37
+Update proběhl v pořádku ✅ 2025-06-28 11:47:02
+spouštím updater v:  2025-06-28 11:50:02
+Update proběhl v pořádku ✅ 2025-06-28 11:51:23
+spouštím updater v:  2025-06-28 11:54:23
+Update proběhl v pořádku ✅ 2025-06-28 11:55:45
+spouštím updater v:  2025-06-28 11:58:45
+Update proběhl v pořádku ✅ 2025-06-28 12:00:15
+spouštím updater v:  2025-06-28 12:03:16
+Update proběhl v pořádku ✅ 2025-06-28 12:04:37
+spouštím updater v:  2025-06-28 12:07:37
+Update proběhl v pořádku ✅ 2025-06-28 12:08:59
+spouštím updater v:  2025-06-28 12:11:59
+Update proběhl v pořádku ✅ 2025-06-28 12:13:24
+spouštím updater v:  2025-06-28 12:16:24
+Update proběhl v pořádku ✅ 2025-06-28 12:17:44
+spouštím updater v:  2025-06-28 12:20:44
+Update proběhl v pořádku ✅ 2025-06-28 12:22:07
+spouštím updater v:  2025-06-28 12:25:07
+Update proběhl v pořádku ✅ 2025-06-28 12:26:29
+spouštím updater v:  2025-06-28 12:29:29
+Update proběhl v pořádku ✅ 2025-06-28 12:30:56
+spouštím updater v:  2025-06-28 12:33:56
+Update proběhl v pořádku ✅ 2025-06-28 12:35:14
+spouštím updater v:  2025-06-28 12:38:14
+Update proběhl v pořádku ✅ 2025-06-28 12:39:39
+spouštím updater v:  2025-06-28 12:42:40
+Update proběhl v pořádku ✅ 2025-06-28 12:44:01
+spouštím updater v:  2025-06-28 12:47:01
+Update proběhl v pořádku ✅ 2025-06-28 12:48:25
+spouštím updater v:  2025-06-28 12:51:25
+Update proběhl v pořádku ✅ 2025-06-28 12:52:45
+spouštím updater v:  2025-06-28 12:55:45
+Update proběhl v pořádku ✅ 2025-06-28 12:57:08
+spouštím updater v:  2025-06-28 13:00:08
+Update proběhl v pořádku ✅ 2025-06-28 13:01:32
+spouštím updater v:  2025-06-28 13:04:33
+Update proběhl v pořádku ✅ 2025-06-28 13:05:56
+spouštím updater v:  2025-06-28 13:08:56
+Update proběhl v pořádku ✅ 2025-06-28 13:10:17
+spouštím updater v:  2025-06-28 13:13:17
+Update proběhl v pořádku ✅ 2025-06-28 13:14:42
+spouštím updater v:  2025-06-28 13:17:42
+Update proběhl v pořádku ✅ 2025-06-28 13:19:01
+spouštím updater v:  2025-06-28 13:22:01
+Update proběhl v pořádku ✅ 2025-06-28 13:23:26
+spouštím updater v:  2025-06-28 13:26:26
+Update proběhl v pořádku ✅ 2025-06-28 13:27:48
+spouštím updater v:  2025-06-28 13:30:48
+Update proběhl v pořádku ✅ 2025-06-28 13:32:14
+spouštím updater v:  2025-06-28 13:35:14

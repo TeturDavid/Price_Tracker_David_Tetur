@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/static/detail_style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <title>Historie cen - {{ produkt.name }}</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <a href="{{ url_for('home') }}" class="btn-home" aria-label="Domů">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+    Domů
+  </a>
+
+  <main class="main-box" role="main" aria-labelledby="nadpis">
+
+    <h1 id="nadpis">Informace o produktu</h1>
+
+    <section class="product-card" aria-label="Detail produktu">
+      <div class="product-image">
+        <img src="{{ produkt.image_url }}" alt="Obrázek produktu {{ produkt.name }}" />
+      </div>
+      <div class="product-info">
+        <h5>{{ produkt.name }}</h5>
+        <p>{{ produkt.description }}</p>
+      </div>
+    </section>
+
+    <section class="graf" aria-label="Graf historie ceny">
+      <canvas id="priceChart" aria-describedby="chartDesc"></canvas>
+      <p id="chartDesc" class="visually-hidden">Časová řada historických cen produktu</p>
+    </section>
+
+    <h2>Momentální cena: {{ "{:,}".format(produkt.current_price | int).replace(',', ' ') }} Kč</h2>
+
+    <a href="{{ produkt.link }}" id="odkaz_produkt" role="button" target="_blank" rel="noopener noreferrer" aria-label="Odkaz na produkt {{ produkt.name }}">
+      Odkaz na produkt
+    </a>
+
+  </main>
+
+  {% if scraped_title or scraped_desc %}
+    <aside class="scraped-info" aria-label="Další informace">
+      {% if scraped_title %}
+        <h4>{{ scraped_title }}</h4>
+      {% endif %}
+      {% if scraped_desc %}
+        <p>{{ scraped_desc }}</p>
+      {% endif %}
+    </aside>
+  {% endif %}
+
+  <!-- Chart.js script -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    const historieData = {{ historie | tojson | safe }};
+    const labels = historieData.map(item => item.time.split(' ')[0]);
+    const prices = historieData.map(item => item.price);
+
+    const ctx = document.getElementById('priceChart').getContext('2d');
+
+    new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: labels,
+        datasets: [{
+          label: 'Cena v Kč',
+          data: prices,
+          fill: true,
+          backgroundColor: 'rgba(0, 123, 255, 0.2)',
+          borderColor: 'rgba(0, 123, 255, 1)',
+          tension: 0.2,
+          pointRadius: 5,
+          pointBackgroundColor: 'rgba(0, 86, 179, 1)'
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { display: false }
+        },
+        scales: {
+          y: {
+            beginAtZero: false,
+            ticks: { color: '#003366' }
+          },
+          x: {
+            ticks: { color: '#003366' }
+          }
+        }
+      }
+    });
+  </script>
+
+</body>
+</html>

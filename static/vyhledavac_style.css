@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #dbeafe 0%, #1e3a8a 100%);
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  position: relative;
+}
+
+#logout-container {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+#logout-container button {
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(220, 53, 69, 0.5);
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+#logout-container button:hover {
+  background-color: #b02a37;
+}
+
+.main-container {
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 3rem 4rem;
+  max-width: 1000px;
+  width: 100%;
+  margin: 4rem auto 2rem auto;
+  animation: fadeInScale 0.6s ease forwards;
+}
+
+h1 {
+  color: #002e5c;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 2px rgba(0, 46, 92, 0.15);
+}
+
+form label {
+  font-weight: 600;
+  color: #004080;
+}
+
+form input[type="text"],
+form input[type="number"] {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 0.5rem 0.8rem;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#nadpis {
+  margin-bottom: 2rem;
+}
+
+form input[type="text"]:focus,
+form input[type="number"]:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 8px rgba(102, 126, 234, 0.6);
+  outline: none;
+}
+
+button.btn-primary,
+button.btn-outline-secondary {
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+button.btn-primary:hover {
+  background-color: #5a67d8;
+  box-shadow: 0 5px 15px rgba(90, 103, 216, 0.5);
+}
+
+button.btn-outline-secondary:hover {
+  background-color: #e2e6ea;
+}
+
+.list-group-item {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  margin-bottom: 0.75rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: default;
+}
+
+.list-group-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.list-group-item .fw-bold {
+  font-size: 1.1rem;
+}
+
+.btn-group a.btn {
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.tooltip-inner {
+  background-color: #002e5c !important;
+  color: #fff !important;
+  font-size: 0.9rem;
+  max-width: 280px;
+}
+
+.flash-container {
+  max-width: 600px;
+  margin: 0 auto 1.5rem auto;
+}
+
+#user-info {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #f9fbfd;
+  padding: 0.4rem 1.2rem 0.4rem 0.8rem;
+  border-radius: 31.5px;
+  font-weight: 600;
+  color: #2c3e50;
+  box-shadow:
+    inset 0 2px 5px rgba(0, 0, 0, 0.08),
+    0 4px 10px rgba(0, 0, 0, 0.08);
+  user-select: none;
+  cursor: default;
+  display: flex;
+  align-items: center;
+  gap: 0.77rem;
+  font-size: 0.81rem;
+  white-space: nowrap;
+  align-items: center;
+  height: 2.75rem; 
+  line-height: 1; 
+}
+
+.user-icon {
+  flex-shrink: 0;
+  width: 27.9px;
+  height: 27.9px;
+  background: #4a90e2;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(74, 144, 226, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1rem;
+  line-height: 1;
+  user-select: none;
+}
+
+#user-info:hover {
+  background: #f0f5fa;
+  box-shadow:
+    inset 0 3px 7px rgba(0, 0, 0, 0.1),
+    0 6px 15px rgba(0, 0, 0, 0.12);
+}
+
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

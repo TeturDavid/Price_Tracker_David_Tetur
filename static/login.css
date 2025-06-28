@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  color: #fff;
+}
+
+.card {
+  background: #fff;
+  color: #333;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  padding: 2rem;
+  max-width: 400px;
+  width: 100%;
+  animation: fadeInScale 0.6s ease forwards;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-weight: 700;
+}
+
+label {
+  font-weight: 600;
+  margin-top: 1rem;
+  display: block;
+  color: #444;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  margin-top: 0.3rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+  font-size: 1rem;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 8px rgba(102, 126, 234, 0.6);
+}
+
+button[type="submit"] {
+  width: 100%;
+  background: #667eea;
+  border: none;
+  padding: 0.75rem;
+  margin-top: 1.8rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.5);
+}
+
+button[type="submit"]:hover {
+  background: #5a67d8;
+  box-shadow: 0 8px 20px rgba(90, 103, 216, 0.7);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0 0;
+  max-height: 6rem;
+  overflow-y: auto;
+}
+
+ul li {
+  background: #f8d7da;
+  color: #842029;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  animation: slideDown 0.5s ease forwards;
+}
+
+a {
+  color: #667eea;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #555;
+}
+
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.success {
+  background-color: #d4edda; /* světle zelená */
+  color: #155724;            /* tmavě zelený text */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.error {
+  background-color: #f8d7da; /* světle červená */
+  color: #721c24;            /* tmavě červený text */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
