@@ -84,8 +84,6 @@ Pro pravidelné aktualizace spusť:
 python updater.py
 ```
 
-Volitelně na Windows můžeš naplánovat `updater.vbs` do Plánovače úloh.
-
 ---
 
 ### ✨ Funkce aplikace
