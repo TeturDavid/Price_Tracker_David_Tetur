@@ -6,6 +6,8 @@ import re
 import time
 from decimal import Decimal
 
+# -------------------
+
 def search_alza(produkt, max_results):
     options = Options()
     options.add_argument("--headless")
@@ -62,6 +64,7 @@ def search_alza(produkt, max_results):
     driver.quit()
     return produkty
 
+# -------------------
 
 def scrape_alza_product(url):
     print("Spouštím prohlížeč...")
@@ -85,14 +88,13 @@ def scrape_alza_product(url):
 
         price_raw = price_elem.text.strip()
         desc = desc_elem.text.strip()
-        
+
         match = re.search(r"\d{1,3}(?:\s?\d{3})*,-", price_raw)
         price_clean = match.group(0) if match else price_raw
         price_number = float(price_clean.replace(" ", "").replace(",-", "").replace(",", "."))        
         print(f"Číslo ceny: {price_number}")
 
         print("Hledám obrázek produktu...")
-
         img_url = None
 
         imgs = driver.find_elements(By.TAG_NAME, "img")

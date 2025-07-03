@@ -4,17 +4,20 @@ from flask_mail import Mail, Message
 from SQL_Connect import (
     add_product_to_wishlist, get_wishlist, remove_from_wishlist,
     get_product_by_id, get_price_history,
-    register_user, login_user, get_user_email,get_db_connection
+    register_user, login_user, get_user_email, get_db_connection
 )
 import re
 from datetime import timedelta
 from decimal import Decimal
+from functools import wraps
+
+# ------------------- Flask Setup -------------------
 
 app = Flask(__name__)
-app.secret_key = 'muj_tajny_klic' 
+app.secret_key = 'muj_tajny_klic'
 app.permanent_session_lifetime = timedelta(minutes=10)
 
-# --- Nastavení Mailu ---
+# ------------------- Mail Config -------------------
 
 app.config.update(
     MAIL_SERVER='smtp.seznam.cz',
@@ -26,6 +29,8 @@ app.config.update(
 )
 mail = Mail(app)
 
+# ------------------- Email Function -------------------
+
 def poslat_email_sleva(user_email, produkt_nazev, sleva, produkt_link):
     msg = Message(
         subject="Velká sleva na produkt!",
@@ -34,7 +39,7 @@ def poslat_email_sleva(user_email, produkt_nazev, sleva, produkt_link):
     )
     mail.send(msg)
 
-# --- Přihlašovací routy ---
+# ------------------- Auth Routes -------------------
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
@@ -70,10 +75,8 @@ def logout():
     flash('Byl jste odhlášen.', 'info')
     return redirect(url_for('login'))
 
+# ------------------- Login Decorator -------------------
 
-# --- Dekorátor pro ochranu přístupu ---
-
-from functools import wraps
 def login_required(f):
     @wraps(f)
     def decorated_function(*args, **kwargs):
@@ -83,8 +86,7 @@ def login_required(f):
         return f(*args, **kwargs)
     return decorated_function
 
-
-# --- Wishlist routy ---
+# ------------------- Wishlist Home -------------------
 
 @app.route('/')
 @login_required
@@ -99,7 +101,7 @@ def home():
             if search_query in produkt['name'].lower()
         ]
 
-    user_email = get_user_email(user_id)  # Načti email uživatele
+    user_email = get_user_email(user_id)
 
     for produkt in wishlist_produkty:
         original_cena = Decimal(str(produkt['original_price']))
@@ -130,7 +132,7 @@ def home():
 
     return render_template('vyhledavac.html', wishlist=wishlist_produkty, user_email=user_email)
 
-
+# ------------------- Vyhledávání produktů -------------------
 
 @app.route('/search_alza', methods=['POST'])
 @login_required
@@ -147,6 +149,7 @@ def alza():
         results = search_alza(produkt_or_query, max_results=max_results)
         return render_template('vysledek.html', results=results, produkt=produkt_or_query, max_results=max_results)
 
+# ------------------- Přidání do wishlistu -------------------
 
 @app.route('/pridatwishlist')
 @login_required
@@ -159,7 +162,7 @@ def pridat_wishlist():
         image_url = request.args.get('image_url')
         description = request.args.get('description')
 
-        success = add_product_to_wishlist(name, original_price, link, image_url, description, user_id=user_id)  # upravená funkce
+        success = add_product_to_wishlist(name, original_price, link, image_url, description, user_id=user_id)
 
         if success:
             flash(f"✅ Produkt „{name}“ byl úspěšně přidán do wishlistu.", "success")
@@ -171,6 +174,7 @@ def pridat_wishlist():
 
     return redirect(url_for('home'))
 
+# ------------------- Odebrání z wishlistu -------------------
 
 @app.route('/odstranitzwishlistu')
 @login_required
@@ -178,21 +182,23 @@ def odstranit_z_wishlistu():
     user_id = session['user_id']
     product_id = request.args.get('id')
     if product_id:
-        remove_from_wishlist(product_id, user_id=user_id)  # upravená funkce
+        remove_from_wishlist(product_id, user_id=user_id)
     return redirect(url_for('home'))
 
+# ------------------- Detail produktu -------------------
 
 @app.route('/produkt/<int:id>')
 @login_required
 def detail_produktu(id):
     user_id = session['user_id']
-    produkt = get_product_by_id(id, user_id=user_id)  # upravená funkce
+    produkt = get_product_by_id(id, user_id=user_id)
     historie = get_price_history(id)
     if not produkt:
         flash("Produkt nebyl nalezen nebo nemáte přístup.", "error")
         return redirect(url_for('home'))
     return render_template("produkt_detail.html", produkt=produkt, historie=historie)
 
+# ------------------- Spuštění aplikace -------------------
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
